@@ -1,120 +1,57 @@
-<p align="center"><img src="https://raw.githubusercontent.com/open-domains/register/main/media/icon.png" height="128"></p>
-<h1 align="center">Open Domains</h1>
+# 🚀 OpenDomains Has Moved!
 
 <p align="center">
-  <a href="https://github.com/open-domains/register/tree/main/domains"><img src="https://img.shields.io/github/directory-file-count/open-domains/register/domains?label=domains&style=for-the-badge&type=file"></a>
-  <a href="https://github.com/open-domains/register/issues"><img src="https://img.shields.io/github/issues-raw/open-domains/register?label=issues&style=for-the-badge"></a>
-  <a href="https://github.com/open-domains/register/pulls"><img src="https://img.shields.io/github/issues-pr-raw/open-domains/register?label=pull%20requests&style=for-the-badge"></a>
+  <a href="https://open-domains.com/">
+    <img src="https://img.shields.io/badge/🌐%20New%20Platform-open--domains.com-blue?style=for-the-badge">
+  </a>
+  <img src="https://img.shields.io/badge/Status-Moved-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/GitHub-Deprecated-lightgrey?style=for-the-badge">
 </p>
-
-<p align="center">Free subdomains for personal sites, open-source projects, and more.</p>
-<p align="center">Want to find services similar to this? Take a look on <a href="https://free.hrsn.dev/#/?id=domains">Free For Life</a>.</p>
-
-## Notice
-NS records are available for donators only. You can donate at: https://donate.stripe.com/cN2eYpaDl4NR21qaEE
-
-## Donate
-If you like this service and want us to continue running it, please consider donating!
-
-[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://donate.stripe.com/cN2eYpaDl4NR21qaEE)
-
-### Discord Server
-Make sure to join our Discord server:
-https://discord.gg/kVjkg6VBwa
-
-## 🌍 Available Domains
-
-| Available Domains |
-|:-:|
-| [`*.is-a-fullstack.dev`](https://is-a-fullstack.dev) |
-| [`*.is-cool.dev`](https://is-cool.dev) |
-| [`*.is-local.org`](https://is-local.org) |
-| [`*.is-not-a.dev`](https://is-not-a.dev) |
-| [`*.localplayer.dev`](https://localplayer.dev) |
-
-
-> [!NOTE]
-> `open-comm.org` will be shutting down on the  **2026-07-22** due to low usage. 
-
-> [!NOTE]
-> Wildcard domains (like `*.example.is-not-a.dev`) are supported too, but the reason for their registration should be very clear and described in detail.
-
-[badge-cf]:https://shields.io/badge/%20-cloudflare-blue?logo=cloudflare&style=plastic?cacheSeconds=3600
-[badge-dnssec]:https://shields.io/badge/%20-DNSSEC-blue?logo=moleculer&logoColor=white&style=plastic?cacheSeconds=3600
-[badge-ssl]:https://shields.io/badge/SSL-Required-blue?style=plastic?cacheSeconds=3600
-
-### ⚙️ Settings
-
-| Setting | [`is-a-fullstack.dev`](https://is-a-fullstack.dev)  | [`is-cool.dev`](https://is-cool.dev) | [`is-local.org`](https://is-local.org) | [`is-not-a.dev`](https://is-not-a.dev) | [`localplayer.dev`](https://localplayer.dev) |
-|-|-|-|-|-|-|
-| PSL | ✅ | ✅ | ✅ | ✅ | ✅ | 
-| [DNSSEC][dnssec] | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Email | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SSL/TLS* | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] | [Full][ssl-full] |
-| Always Use HTTPS* | ✅ | ✅ | ✅ | ✅ | ✅ |
-| HTTP Strict Transport Security (HSTS) | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Minimum TLS Version* | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
-| Opportunistic Encryption, TLS 1.3* | ✅ | ✅ | ✅ | ✅ | ✅ |
-| WAF (Web Application Firewall)* | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level | Medium Security Level |
-| Browser Integrity Check* | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [Caching Level][caching-levels], Browser Cache TTL* | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours | Standard, 4 hours |
-
-\*Only available when your domain has Cloudflare's proxy (`"proxied": true`) enabled
-
-[dnssec]:https://developers.cloudflare.com/dns/additional-options/dnssec  
-[ssl-full]:https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full  
-[caching-levels]:https://developers.cloudflare.com/cache/how-to/set-caching-levels
 
 ---
 
-## Register
+## 📦 What’s happening?
 
-### Manual
-1. **Star** and **[Fork](https://github.com/open-domains/register/fork)** this repository.
-2. Add a new file called `example.domain.json` in the `/domains` folder to register `example` subdomain.
-3. Edit the file name. It should be in the format that the domain comes in. Example, `testing.is-a-local.org.json` to register `testing.is-a-local.org`.
-4. Edit the file (below is just an **example**, provide a **valid** JSON file with your needs, the format is very strict. These records should not show up inside your file.
-5. Make sure to fill out all information required in the pull request template.
+OpenDomains is no longer managed via GitHub.
+We’ve moved everything over to our new platform:
 
-See below for a list of all records available:
+👉 **https://open-domains.com/**
 
-```json
-{
-    "description": "Project Description",
-    "domain": "is-not-a.dev",
-    "subdomain": "example",
+---
 
-    "owner": {
-        "repo": "https://github.com/username/repo",
-        "email": "hello@example.com"
-    },
+## 🔄 Already have a domain?
 
-    "record": {
-        "A": ["1.1.1.1", "1.0.0.1"],
-        "AAAA": ["::1", "::2"],
-        "CNAME": "example.com",
-        "MX": ["mx1.example.com", "mx2.example.com"],
-        "TXT": ["example_verification=1234567890"],
-        "CAA": [
-            { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
-            { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
-        ],
-        "SRV": [
-            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
-            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
-        ]
-    },
+No worries, your stuff is safe 👍
 
-    "proxied": false
-}
+Just head over to the new site and click:
 
-```
+> **“Migrate from GitHub”**
 
-7. Your pull request will be reviewed and merged. Please don't ignore the pull request checklist. If you ignore the checklist, your pull request will be ignored too. _Make sure to keep an eye on it in case we need you to make any changes!_
-8. After the pull request is merged, please allow up to 24 hours for the changes to propagate _(usually, it takes 5..15 minutes, may take up to 24 hours.)_
-9. Enjoy your new domain!
+### ⚠️ Important
 
-*Domains used for illegal purposes will be removed and permanently banned. Please, provide a clear description of your resource in the pull request.*
+* Your domains will **remain active** if you don’t migrate
+* But you **won’t be able to edit them** anymore via GitHub
 
-### License
-This project is under a [MIT License](https://github.com/open-domains/register/blob/main/LICENSE).
+---
+
+## ⚠️ Service Notice
+
+<p>
+  <img src="https://img.shields.io/badge/Shutdown-22%20July%202026-red?style=flat-square">
+</p>
+
+The domain **`open-comm.org`** will be shutting down due to low usage.
+
+⏳ Make sure you migrate or back up anything important before then!
+
+---
+
+## 💬 Need help?
+
+If you run into any issues, head over to the new platform or reach out to the team.
+
+---
+
+<p align="center">
+  ❤️ Thanks for being part of OpenDomains
+</p>
