@@ -1,0 +1,14 @@
+{
+  "description": "Personal portfolio website of Inope83",
+  "domain": "is-a.dev",
+  "subdomain": "inope",
+  "owner": {
+    "username": "Inope83",
+    "repo": "https://github.com/Inope83",
+    "email": "angelinorosaleslopes1234@gmail.com"
+  },
+  "record": {
+    "CNAME": "inope83.netlify.app"
+  },
+  "proxied": false
+}
